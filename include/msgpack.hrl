@@ -1,0 +1,6 @@
+-define(APPLICATION,	msgpack_app).
+-define(STREAMSUP,		msgpack_stream_sup).
+-define(SENDSUP,		msgpack_send_sup).
+-define(RECVSUP,		msgpack_recv_sup).
+-define(TITLE_LENGTH,	"16").
+-define(LOG(M,P,F,D),	msgpack:log(M,P,F,D)).
