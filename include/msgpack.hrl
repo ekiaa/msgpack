@@ -1,4 +1,4 @@
--define(APPLICATION,	msgpack_app).
+-define(APPLICATION,	msgpack).
 -define(STREAMSUP,		msgpack_stream_sup).
 -define(SENDSUP,		msgpack_send_sup).
 -define(RECVSUP,		msgpack_recv_sup).
