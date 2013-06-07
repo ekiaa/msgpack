@@ -1,0 +1,13 @@
+{application, msgpack, [
+	{description, "Message-pack Server"},
+	{vsn, git},
+	{modules, [
+		msgpack
+	]},
+	{registered, [
+		msgpack
+	]},
+	{applications, [kernel, stdlib]},
+	{mod, {msgpack, []}},
+	{env, []}
+]}.
